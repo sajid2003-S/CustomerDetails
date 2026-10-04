@@ -1,0 +1,21 @@
+/* Inventory Accordion Styles */
+.inventory-details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 10px 0;
+}
+
+.inventory-accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.no-inventory-text {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #71717a;
+  font-style: italic;
+  padding: 12px 0;
+}

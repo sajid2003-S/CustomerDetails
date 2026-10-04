@@ -1,0 +1,20 @@
+/* MoveCard Styles */
+.move-card-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 10px 0 0 0;
+  transition: all 0.2s ease;
+}
+
+.move-card-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+.move-card-item:last-child .move-card-divider {
+  display: none;
+}

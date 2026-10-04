@@ -1,0 +1,54 @@
+/* ErrorState Styles */
+.error-state-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+  background-color: #fef2f2;
+  border: 1px solid #fee2e2;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.error-icon-box {
+  color: var(--primary-color, #ea4b35);
+  margin-bottom: 16px;
+}
+
+.error-title {
+  margin: 0 0 8px 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #991b1b;
+}
+
+.error-message {
+  margin: 0 0 20px 0;
+  font-size: 0.9rem;
+  color: #b91c1c;
+  max-width: 480px;
+  line-height: 1.5;
+}
+
+.btn-retry {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--primary-color, #ea4b35);
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.btn-retry:hover {
+  background-color: #d93d28;
+  transform: translateY(-1px);
+}

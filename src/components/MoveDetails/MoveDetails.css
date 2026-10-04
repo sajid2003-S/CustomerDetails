@@ -1,0 +1,35 @@
+/* MoveDetails Styles */
+.move-details-expanded-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-top: 22px;
+  animation: detailsFadeSlide 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes detailsFadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.details-subpanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-info-section {
+  gap: 12px;
+}
+
+.additional-info-text {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #374151;
+  line-height: 1.5;
+}
